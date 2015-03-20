@@ -1,10 +1,10 @@
-# PyPlot Animations
-This repository contains a few simple animations in PyPlot.
+# PyPlot: Drawing a Sine Wave Animation
+This repository contains a script that draws part of the sine wave sin(x).
 
 ## Exercises
 
-1. In 2d-wave-animate.py, the sine wave slowly grows in amplitude and then jumps back to zero. Change it so that the sine wave slowly returns to its initial state, completing one full cycle of growing and shrinking in amplitude.
+1. Change the script so that sin(x) is drawn for the x values in the range [-4pi,4pi].
 
-2. In 2d-wave-draw-animate.py, a portion of the sine wave is slowly drawn. Have the whole sine wave draw in exactly two seconds.
+2. Change the script so that the wave is drawn in exactly two seconds.
 
-3. Add a green, dotted cos wave to the result of exercise 2.
+3. Add a green, dotted cos wave that draws at the same rate as the sine wave, on the same set of axes.
